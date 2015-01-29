@@ -1,0 +1,124 @@
+html {
+  padding: 5%;
+}
+body {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+//TESTING OVERLAY
+
+
+.testOverlay { position: relative; float: left; border-radius: 100%;}
+.testOverlay { background: yellow; border-radius: 100%;}
+.testOverlay img { opacity: 0.5; border-radius: 100%;}
+.testOverlay:hover img { opacity: 1; border-radius: 100%;}
+
+
+img {
+  display: list-item;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+//END TESTING OVERLAY
+
+.title {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #FBEC5D;
+
+}
+.title h1{
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  background-color: #FBEC5D;
+
+}
+.title h3 {
+  text-align: center;
+  background-color: white;
+  padding: 6px;
+  margin: 0px;
+}
+
+nav {
+  background: black;
+  width:100%;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  text-align: center;
+}
+nav li {
+  display:inline-block;
+  margin-left:10px;
+}
+
+nav a {
+
+  display:block;
+  padding:25px;
+  color: white;
+
+}
+
+nav li:hover {
+  background: white;
+}
+nav li:hover a {
+  color: black;
+}
+
+
+article, .box {
+  padding: 25px;
+  display: inline-block
+}
+.box img {
+  width: 175px;
+  height: 175px;
+  display: inline-block;
+  border-radius: 25%;
+  border: 2px solid black;
+}
+.box ul {
+  display: inline-table;
+}
+section, aside {
+  display:inline-block;
+  vertical-align: top;
+
+}
+
+section {
+  width: 70%;
+}
+aside {
+  width: 29%;
+}
+
+.form {
+  display:none;
+}
+.active {
+  display:block;
+}
