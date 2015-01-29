@@ -139,7 +139,8 @@ aside ul {
   padding-right: 0; }
 
 aside li {
-  align: center; }
+  align: center;
+  padding: 4px; }
 
 .form {
   display: none; }
