@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>The Yellow Faces</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+
   <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   <script id="postTmpl" type="html/template">
   <article data-index='<%= idx %>'>
@@ -24,7 +26,7 @@
 <body>
   <header>
     <div class="title">
-      <h1>THE YELLOW FACES</h1>
+      <h1>THE YELLOW FACES <i class="fa fa-phone"></i></h1>
       <h3>BECAUSE SOMETIMES YOU NEED HELP PUTTING A NAME TO A FACE</h3>
     </div>
     <nav>
@@ -64,11 +66,12 @@
 
 
             <form action="">
-              <h4> <label for="name">Name</label> </h4>
+              <h3>ADD NEW CONTACT</h3>
+              <h4> <label for="name"><i class="fa fa-user"></i> Name</label> </h4>
               <input type="text" name="name" placeholder="Insert Name Here">
-              <p><label for="phone">Phone</label></p>
+              <p><label for="phone"><i class="fa fa-phone"></i> Phone</label></p>
               <input type="text" name="phone" placeholder="555-555-5555">
-              <p><label for="photo">Photo</label></p>
+              <p><label for="photo"><i class="fa fa-camera"></i> Photo</label></p>
               <input type="url" name="photo" placeholder="Insert Img url here"></p>
               <p>
                 <p><button type="submit">Submit Post</button></p>
@@ -96,7 +99,6 @@
         <script src="bower_components/underscore/underscore.js"></script>
 
         <!-- data to use -->
-        <script src="reddit.js"></script>
         <script src="data.js"></script>
 
         <!-- template file -->
