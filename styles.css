@@ -49,7 +49,7 @@ body {
   border-radius: 100%; }
 
 .testOverlay {
-  background: yellow;
+  background: #FBEC5D;
   border-radius: 100%; }
 
 .testOverlay img {
@@ -149,9 +149,6 @@ aside ul {
 aside li {
   align: center;
   padding: 4px; }
-
-.form {
-  display: none; }
 
 form {
   border: 2px solid black;
