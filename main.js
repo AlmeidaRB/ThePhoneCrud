@@ -23,6 +23,13 @@ var blogPage = {
     $('section').on('click', '.editWholePost', blogPage.updatePost);
 
   },
+
+  //sortByName = function(posts) {
+    //return _.sortBy(posts, "name");
+//  },
+
+
+
   createPost: function () {
     var newPost = {
       name: $('.box input[name="name"]').val(),
@@ -41,6 +48,7 @@ var blogPage = {
 
 
   },
+
   updatePost: function () {
 
     var thisIndex = $(this).closest('article').data('index');
@@ -57,6 +65,7 @@ var blogPage = {
     blogPage.renderAllPosts(posts);
 
   },
+
   deletePost: function (event) {
 
     var postIndex = $(this).closest('article').data('index');
@@ -67,10 +76,12 @@ var blogPage = {
 
 
   },
+
   compileTmpl: function (data, tmpl) {
     var tmpl = _.template(tmpl);
     return tmpl(data);
   },
+
   renderAllPosts: function (allPosts) {
     var tmplStr = "";
     var compiledTmpl = _.template($("#postTmpl").html());

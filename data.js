@@ -1,5 +1,6 @@
 var posts = [
 {
+
   name: "Mom",
   phone: "000-123-4567",
   photo: "http://www.fillmurray.com/200/200",
