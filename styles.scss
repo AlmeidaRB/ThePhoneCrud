@@ -168,13 +168,16 @@ aside li {
 }
 
 
-form {
+.addNew {
   border: 2px solid black;
   margin: 30px;
   padding: 0px;
   background-color: #FBEC5D;
   width: 200px;
   display: inline-table;
+}
+.form {
+  display: none;
 }
 .active {
   display:block;
