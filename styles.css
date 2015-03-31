@@ -161,4 +161,20 @@ form {
 .active {
   display: block; }
 
+@media screen and (max-width: 320px) {
+  body {
+    max-width: 320px;
+    max-height: 100%; } }
+@media screen and (max-width: 320px) {
+  aside {
+    display: block; } }
+@media screen and (max-width: 320px) {
+  p {
+    display: table-header-group;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    text-align: center; } }
+
 /*# sourceMappingURL=styles.css.map */
