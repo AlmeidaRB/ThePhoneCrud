@@ -150,15 +150,17 @@ aside li {
   align: center;
   padding: 4px; }
 
-form {
+.form {
+  display: none; }
+
+.active {
+  display: block; }
+
+.addNew {
   border: 2px solid black;
   margin: 30px;
   padding: 0px;
   background-color: #FBEC5D;
-  width: 200px;
-  display: inline-table; }
-
-.active {
-  display: block; }
+  width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
