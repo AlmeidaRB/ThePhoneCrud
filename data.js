@@ -53,17 +53,5 @@ var posts = [
   phone: "919-555-5555",
   photo: "http://www.fillmurray.com/200/200",
   isPublished: true
-},
-{
-  name: "Aziz Ansari",
-  phone: "919-555-5555",
-  photo: "http://www.fillmurray.com/200/200",
-  isPublished: true
-},
-{
-  name: "Kevin Durant",
-  phone: "919-555-5555",
-  photo: "http://www.fillmurray.com/200/200",
-  isPublished: true
-},
+}
 ];

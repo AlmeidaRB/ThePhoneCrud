@@ -13,7 +13,7 @@
   <article data-index='<%= idx %>'>
   <div class="testOverlay"><img src='<%= photo %>'></div>
   <h3><%= name %></h3>
-  <i class="fa fa-phone"></i> <a href=tel:'<%= phone %>'><%= phone %></a>
+  <i class="fa fa-phone"></i> <a href=tel:+1<%= phone %>><%= phone %></a>
   <p><button class='deletePost'>Delete</button><button class="showEditForm">Edit</button></p>
   <div class="form">
   <p><input type="text" class="editName" value="<%= name %>"></p>
@@ -62,7 +62,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus neque! Autem repudiandae cupiditate</p>
 
 
-            <form action="">
+            <form class="addNew">
               <h3>ADD NEW CONTACT</h3>
               <h4> <label for="name"><i class="fa fa-user"></i> Name</label> </h4>
               <input type="text" name="name" placeholder="Insert Name Here">
