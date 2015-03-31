@@ -163,40 +163,18 @@ aside li {
   padding: 4px;
 }
 
+
+.form {
+  display: none;
+}
+
+.active {
+  display:block;
+}
 .addNew {
   border: 2px solid black;
   margin: 30px;
   padding: 0px;
   background-color: #FBEC5D;
   width: 200px;
-  display: inline-table;
-}
-.form {
-  display: none;
-}
-.active {
-  display:block;
-
-}
-@media screen and (max-width:320px) {
-  body {
-    max-width: 320px;
-    max-height: 100%;
-  }
-}
-@media screen and (max-width:320px) {
-  aside {
-    display: block;
-  }
-
-}
-@media screen and (max-width:320px) {
-  p {
-    display:table-header-group;
-    font-size: 12px;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
-    text-align: center;
-  }
 }
